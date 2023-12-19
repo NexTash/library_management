@@ -1,0 +1,91 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:Transaction-{MM}-{####}",
+ "creation": "2023-12-12 13:30:42.353508",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "article",
+  "library_member",
+  "transaction_type",
+  "transaction_date",
+  "transaction_due_date",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "article",
+   "fieldtype": "Link",
+   "label": "Article",
+   "options": "Article"
+  },
+  {
+   "fieldname": "library_member",
+   "fieldtype": "Link",
+   "label": "Library Member",
+   "options": "Library Member"
+  },
+  {
+   "fieldname": "transaction_type",
+   "fieldtype": "Select",
+   "in_standard_filter": 1,
+   "label": "Transaction Type",
+   "options": "Issued\nReturn"
+  },
+  {
+   "fieldname": "transaction_date",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Transaction Date"
+  },
+  {
+   "fieldname": "transaction_due_date",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Transaction Due Date"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Transaction",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-12-12 13:32:02.440404",
+ "modified_by": "Administrator",
+ "module": "Lms",
+ "name": "Transaction",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}
