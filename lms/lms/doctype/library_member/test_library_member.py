@@ -1,4 +1,4 @@
-# Copyright (c) 2023, nextash.com and Contributors
+# Copyright (c) 2023, NexTash (SMC-Pvt) Ltd. and Contributors
 # See license.txt
 
 # import frappe

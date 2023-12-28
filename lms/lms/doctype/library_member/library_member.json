@@ -30,13 +30,10 @@
    "label": "Last Name"
   },
   {
-   "fetch_from": "amended_from.full_name",
-   "fetch_if_empty": 1,
    "fieldname": "full_name",
    "fieldtype": "Data",
    "is_virtual": 1,
    "label": "Full Name",
-   "options": "library member",
    "read_only": 1
   },
   {
@@ -68,7 +65,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-12-22 12:30:33.534897",
+ "modified": "2023-12-22 13:44:09.755164",
  "modified_by": "Administrator",
  "module": "Lms",
  "name": "Library Member",

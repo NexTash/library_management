@@ -2,9 +2,9 @@ from . import __version__ as app_version
 
 app_name = "lms"
 app_title = "Lms"
-app_publisher = "nextash.com"
+app_publisher = "NexTash (SMC-Pvt) Ltd."
 app_description = "library management system"
-app_email = "support@nextash.com"
+app_email = "support@NexTash (SMC-Pvt) Ltd."
 app_license = "MIT"
 
 # Includes in <head>

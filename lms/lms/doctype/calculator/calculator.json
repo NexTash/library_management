@@ -1,0 +1,113 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:cal-{26}-{12}-{####}",
+ "creation": "2023-12-27 16:01:19.863090",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "first_num",
+  "second_num",
+  "sum",
+  "substract",
+  "multiply",
+  "division",
+  "percentage",
+  "modulus",
+  "column_break_o9gxo",
+  "result",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "first_num",
+   "fieldtype": "Data",
+   "label": "first num"
+  },
+  {
+   "fieldname": "second_num",
+   "fieldtype": "Data",
+   "label": "second num"
+  },
+  {
+   "fieldname": "result",
+   "fieldtype": "Data",
+   "label": "result"
+  },
+  {
+   "fieldname": "sum",
+   "fieldtype": "Button",
+   "label": "Sum"
+  },
+  {
+   "fieldname": "substract",
+   "fieldtype": "Button",
+   "label": "Substract"
+  },
+  {
+   "fieldname": "multiply",
+   "fieldtype": "Button",
+   "label": "Multiply"
+  },
+  {
+   "fieldname": "division",
+   "fieldtype": "Button",
+   "label": "Division"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Calculator",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "percentage",
+   "fieldtype": "Button",
+   "label": "percentage"
+  },
+  {
+   "fieldname": "modulus",
+   "fieldtype": "Button",
+   "label": "modulus"
+  },
+  {
+   "fieldname": "column_break_o9gxo",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-12-28 16:25:26.411798",
+ "modified_by": "Administrator",
+ "module": "Lms",
+ "name": "Calculator",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}
